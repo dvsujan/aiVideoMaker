@@ -38,6 +38,10 @@ speech/
 finalvids/
 finalVideos/
 
-
+speech
+output.json
+output.mp3
+output.txt
+script.txtspeech_video
 
 

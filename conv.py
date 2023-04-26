@@ -8,9 +8,7 @@ def generate_script(prompt):
 
     output = llm(f"{Question} in 5 bullet points")
     print(output['choices'][0]['text'])
-
-    open("script.txt", "w").write(output['choices'][0]['text'])
-
+    
     del llm
     print("Script Generation Donw.")
     return output['choices'][0]['text']
