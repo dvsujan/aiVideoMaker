@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environment variables
+.env
+
+# Local development configuration
+*.sqlite3
+*.env
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Other
+*.pyc
+*.log
+.DS_Store
+
+# project media dirs
+models/
+finalVideos/
+images/
+tempvids/
+videos/
+stable-diffusion-cpu/
+video_speech/
+speech/
+finalvids/
+finalVideos/
+
+
+
+
